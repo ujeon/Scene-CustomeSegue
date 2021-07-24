@@ -13,6 +13,7 @@
 		F2025EBA26AC31A4005AD2FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2025EB826AC31A4005AD2FF /* Main.storyboard */; };
 		F2025EBC26AC31A6005AD2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2025EBB26AC31A6005AD2FF /* Assets.xcassets */; };
 		F2025EBF26AC31A6005AD2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2025EBD26AC31A6005AD2FF /* LaunchScreen.storyboard */; };
+		F2025EC826AC32A6005AD2FF /* NewSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2025EC726AC32A6005AD2FF /* NewSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F2025EBB26AC31A6005AD2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2025EBE26AC31A6005AD2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2025EC026AC31A6005AD2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2025EC726AC32A6005AD2FF /* NewSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F2025EB126AC31A4005AD2FF /* Scene-CustomSegue */ = {
 			isa = PBXGroup;
 			children = (
+				F2025EC726AC32A6005AD2FF /* NewSegue.swift */,
 				F2025EB226AC31A4005AD2FF /* AppDelegate.swift */,
 				F2025EB426AC31A4005AD2FF /* SceneDelegate.swift */,
 				F2025EB626AC31A4005AD2FF /* ViewController.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2025EC826AC32A6005AD2FF /* NewSegue.swift in Sources */,
 				F2025EB726AC31A4005AD2FF /* ViewController.swift in Sources */,
 				F2025EB326AC31A4005AD2FF /* AppDelegate.swift in Sources */,
 				F2025EB526AC31A4005AD2FF /* SceneDelegate.swift in Sources */,
